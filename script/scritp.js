@@ -13,6 +13,6 @@ const listaItens = document.getElementsByTagName('li');
 console.log(listaItens);
 
 const botão = document.getElementById('btn');
-botão.addEventListener('click', function(){
+botão.addEventListener('click', (){
     alert("Você clicou no botão!")
 });
