@@ -16,3 +16,8 @@ const botão = document.getElementById('btn');
 botão.addEventListener('click', function(){
     alert("Você clicou no botão!")
 });
+
+const paula = document.getElementById('btn');
+paula.addEventListener('click', function(){ 
+    document.body.style.backgroundColor = 'purple'
+})
